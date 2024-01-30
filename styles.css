@@ -1,0 +1,30 @@
+body {
+  background-color: darkblue;
+}
+
+h1, h2 {
+  color: pink;
+  font-family: 'Comic Sans MS';
+}
+
+button {
+  margin: 1rem;
+}
+
+.container {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#btn {
+            position: absolute;
+            transition: .5s;
+            /* background-color: dodgerblue; */
+        }
+
+#yes-btn {
+  color: black;
+  text-decoration: none;
+}
